@@ -4,6 +4,7 @@ Hint-Text
 jQuery plugin for providing hint text on input boxes
 
 The plugin is very basic and simple. It is used to do only a few things:
+
 1. Use placeholder where browsers support it
 2. Provide fallback for browsers that don't support placeholder
 3. Use one attribute ("placeholder") for the plugin
