@@ -1,3 +1,15 @@
+/**
+ * jQuery hintText Plugin 1.0
+ *
+ * http://davidgodfrey.info/hintText
+ *
+ * Copyright (c) 2012 David Godfrey
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
 (function($){
   $.fn.hintText = function(options) {
 
