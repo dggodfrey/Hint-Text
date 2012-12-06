@@ -27,7 +27,9 @@
       var $this = $(this);
       //only run if the placehoder attribute isn't supported and there is text in placeholder to show
       if(html5 != true && $this.attr("placeholder") != ""){
-        $this.val($this.attr("placeholder"));
+        if ($this.val()=='') {
+          $this.val($this.attr("placeholder"));
+        }
         $this.css({color:settings.hintColor});
 
         $this.focusin(function(){
